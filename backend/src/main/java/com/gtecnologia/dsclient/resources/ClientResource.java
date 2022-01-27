@@ -23,5 +23,4 @@ public class ClientResource {
 		List<Client> list = service.findAll();
 		return ResponseEntity.ok().body(list);
 	}
-	
 }

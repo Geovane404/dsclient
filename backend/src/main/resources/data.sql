@@ -1,0 +1,13 @@
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
+INSERT INTO tb_client (name, income, birth_date, cpf, children) VALUES ('Geovane', 1500.0, TIMESTAMP WITH TIME ZONE '1993-10-28T20:50:07.12345Z', '02456252165', 2);
