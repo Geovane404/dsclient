@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 import javax.persistence.EntityNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -30,7 +31,7 @@ public class ClientService {
 	@Transactional
 	public ClientDTO findById(Long id) {
 		Optional<Client> obj = repository.findById(id);
-		Client entity = obj.orElseThrow(() -> new ClientNotFoundException("Entidade não existente")); 
+		Client entity = obj.orElseThrow(() -> new ClientNotFoundException("Id não encontrado")); 
 		return new ClientDTO(entity);
 	}
 
@@ -61,6 +62,15 @@ public class ClientService {
 			return new ClientDTO(entity);
 		}
 		catch(EntityNotFoundException e) {
+			throw new ClientNotFoundException("Id não encontrado");
+		}
+	}
+
+	public void delete(Long id) {
+		try {
+			repository.deleteById(id);
+		}
+		catch(EmptyResultDataAccessException e) {
 			throw new ClientNotFoundException("Id não encontrado");
 		}
 	}
